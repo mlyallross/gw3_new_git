@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>Star Wars</title>
+
+		<link type="text/css" rel="stylesheet" href="deathstar.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+
+	</head>
+
+  <body>
+    <header>
+			<div class="container">
+	      <nav>
+	        <ul>
+						<li class="spaceship">
+							<a id="lightspeed1" href="index.html"><img src="images/ship.png" title="Spaceship" alt="Spaceship" /></a>
+						</li>
+	        	<li class="coruscant_planet">
+							<a id="lightspeed2" href="coruscant.html"><img src="images/coruscant.png" title="Coruscant" alt="Coruscant" /></a>
+						</li>
+					</ul>
+	      </nav>
+			</div>
+		</header>
+
+		<main>
+			<section class="deathstar-section">
+	    	<figure class="deathstar-heading"><img src="images/deathstar-heading.png" title="Death Star" alt="Death Star"></figure>
+				<div class="deathstar-images">
+		      <figure><img src="images/deathstar-pic1.jpg" title="Death Star" alt="Death Star"></figure>
+		      <figure><img src="images/deathstar-pic2.jpg" title="Death Star" alt="Death Star"></figure>
+				</div>
+				<div class="deathstar-text">
+	      	<p>The Death Star was the Empire’s ultimate weapon: a moon-sized space station with the ability to destroy an entire planet. But the Emperor and Imperial officers like Grand Moff Tarkin underestimated the tenacity of the Rebel Alliance, who refused to bow to this technological terror…</p>
+				</div>
+			</section>
+
+			<hr class="horizontal">
+
+			<section class="jedi-section">
+				<figure class="jedi-heading"><img src="images/empire-heading.png" title="Galactic Empire" alt="Galactic Empire"></figure>
+				<div class="jedi-images">
+					<figure><img src="images/galacticempire-pic1.jpeg" title="Galactic Empire" alt="Galactic Empire"></figure>
+					<figure><img src="images/galacticempire-pic2.jpg" title="Galactic Empire" alt="Galactic Empire"></figure>
+				</div>
+				<div class="jedi-text">
+					<p>The Galactic Empire ruled for years through fear, intimidation, and tyranny. With a mighty military force including stormtroopers, spy technology like probe droids, and the planet-destroying Death Star, Emperor Palpatine’s regime seemed unstoppable and permanent. But some dared to strike back…</p>
+				</div>
+			</section>
+
+			<section class="section3">
+				<div class="game">
+				  <div class="game-heading">
+				    <h1>JOIN THE DARK SIDE</h1>
+				  </div>
+
+				  <!-- main SECTION -->
+				  <section class="main-game">
+				    <div class="box play"></div>
+				    <div class="box play"></div>
+				    <div class="box play"></div>
+				    <div class="box play"></div>
+				    <div class="box play"></div>
+				    <div class="box play"></div>
+				    <div class="box play"></div>
+				    <div class="box play"></div>
+				    <div class="box play"></div>
+				    <div class="box play"></div>
+				    <div class="box play"></div>
+				    <div class="box play"></div>
+				    <div class="box play"></div>
+				    <div class="box play"></div>
+				    <div class="box play"></div>
+				    <div class="box play"></div>
+				    <div class="box play"></div>
+				    <div class="box play"></div>
+				    <div class="box play"></div>
+				    <div class="box play"></div>
+
+				    <div id="state">
+				      <span id="time">0</span>
+				      <span id="score">0</span>
+				    </div>
+				  </section>
+
+
+				  <!-- PRE -->
+				  <section id="pre" class="hidden">
+				    <div id="themes">
+				      Do or do not. <br> There is no try.
+				      <p id="starwars" class="themes" title="Star Wars">Play</p>
+				    </div>
+				  </section>
+
+				  <!-- POST -->
+				  <section id="post" class="hidden">
+				    <div>
+				      <p>BRAVO !</p>
+				      <p id="final"></p>
+				      <br>
+				      <p>
+				        <a id="again">Play Again !</a>
+				      </p>
+				    </div>
+				  </section>
+				</div>
+			</section>
+
+  	</main>
+
+    <footer>
+			<div>
+				<figure class="team-logo" ><img src="images/gw3logo.png" title="Team Logo" alt="Team Logo"></figure>
+				<hr class="vertical">
+				<figure class="starwars-logo"><img src="images/starwars-logo.png" title="Star Wars" alt="Star Wars"></figure>
+			</div>
+		</footer>
+
+	<script src="js/main.js"></script>
+	<script src="js/memorygame.js"></script>
+  </body>
+
+</html>

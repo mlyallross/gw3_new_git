@@ -1,0 +1,531 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+body {
+  background-image: url(images/stars_bg.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1;
+	background-color: rgba(0, 0, 0, .2);
+}
+
+/* *********************** HEADER *********************** */
+
+nav img {
+	width: 22%;
+	max-width: 100px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+header {
+	width: 100%;
+	background-color: rgba(0, 0, 0, .2);
+}
+
+nav {
+	text-align: right;
+	padding: 10px;
+	max-width: 1400px;
+	margin: auto;
+}
+
+/* *********************** HEADER *********************** */
+/* *********************** SECTION 1 *********************** */
+
+.deathstar-section {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.deathstar-heading {
+	width: 70%;
+	margin: 25px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.deathstar-heading img {
+	width: 100%;
+	max-width: 390px;
+}
+
+/* ******************* CSS IMAGE HOVER EFFECTS ************** */
+
+.deathstar-heading img {
+	transition-duration: 1s;
+}
+
+.deathstar-heading:hover img {
+	transform: translate(0, -100px);
+}
+
+/* ******************* CSS IMAGE HOVER EFFECTS ************** */
+
+.deathstar-images {
+	width: 90%;
+	max-width: 1400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.deathstar-images figure {
+	width: 95%;
+}
+
+.deathstar-images img {
+	width: 100%;
+	padding-bottom: 15px;
+}
+
+.deathstar-images img:hover {
+	box-shadow:
+							1px 1px #ffe91e,
+							2px 2px #ffe91e,
+							3px 3px #ffe91e;
+	-webkit-transform: translateX(-3px);
+	transform: translateX(-3px);
+}
+
+.deathstar-section p {
+	max-width: 1400px;
+	color: #ffe91e;
+	padding: 0 5%;
+	font-size: 1.2rem;
+}
+
+.horizontal {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ffffff;
+    margin: 40px 40%;
+    padding: 0;
+}
+
+/* *********************** SECTION 1 *********************** */
+/* *********************** SECTION 2 *********************** */
+
+.jedi-section {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.jedi-heading {
+	width: 70%;
+	margin: 10px 0 25px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.jedi-heading img {
+	width: 100%;
+	max-width: 558px;
+}
+
+.jedi-images {
+	width: 90%;
+	max-width: 1400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.jedi-images figure {
+	width: 95%;
+}
+
+.jedi-images img {
+	width: 100%;
+	padding-bottom: 15px;
+}
+
+.jedi-images img:hover {
+	box-shadow:
+							1px 1px #ffe91e,
+							2px 2px #ffe91e,
+							3px 3px #ffe91e;
+	-webkit-transform: translateX(-3px);
+	transform: translateX(-3px);
+}
+
+.jedi-section p {
+	max-width: 1400px;
+	color: #ffe91e;
+	padding: 0 5%;
+	font-size: 1.2rem;
+}
+
+/* *********************** SECTION 2 *********************** */
+/* *********************** SECTION 3 *********************** */
+
+.section3 {
+	margin: 50px 0;
+}
+
+.game {
+	min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: arial;
+  position: relative;
+  text-align: center;
+}
+
+/* HEADER */
+.game-heading {
+  color: #990000;
+  letter-spacing: 0.125em;
+  font-size: 1rem;
+  padding: 10px 5px 40px 5px;
+}
+@media only screen and (min-width: 435px) {
+  .game-heading {
+    font-size: 1.375rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .game-heading {
+    font-size: 1.75rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .game-heading {
+    font-size: 2rem;
+  }
+}
+
+/* main SECTION */
+.main-game {
+  background: whitesmoke;
+  width: 250px;
+  height: 345px;
+  box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.4);
+  margin: auto;
+}
+@media only screen and (min-width: 768px) {
+  .main-game {
+    width: 310px;
+    height: 285px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .main-game {
+    width: 410px;
+    height: 375px;
+  }
+}
+
+.box {
+  background: #000000;
+  background-image: linear-gradient(to top left, #000000, #990000);
+  background-size: 250%;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 10px 0 0 10px;
+  cursor: pointer;
+}
+@media only screen and (min-width: 1024px) {
+  .box {
+    width: 70px;
+    height: 70px;
+  }
+}
+.play:hover {
+  background: #000000;
+  background-image: linear-gradient(to top left, #000000, #990000);
+  background-size: 100%;
+}
+
+.game img {
+  width: 100%;
+  display: block;
+}
+
+/* STATUS bar */
+#state {
+  background: #000000;
+  background-image: linear-gradient(to top left, #990000, #000000);
+  background-size: 250%;
+  width: 230px;
+  line-height: 25px;
+  float: left;
+  margin: 10px 0 0 10px;
+  padding: 0 10px;
+  color: whitesmoke;
+  font-size: 16px;
+}
+@media only screen and (min-width: 768px) {
+  #state {
+    width: 290px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #state {
+    width: 390px;
+    line-height: 35px;
+  }
+}
+
+#time {
+  float: left;
+}
+#time::after {
+  content: " sec";
+}
+
+#score {
+  float: right;
+}
+#score::after {
+  content: " points";
+}
+
+/* FOOTER */
+footer p {
+  color: whitesmoke;
+  padding: 5px;
+  font-size: 14px;
+  clear: both;
+}
+
+footer p a {
+  color: #333;
+  text-decoration: none;
+}
+footer p a:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none !important;
+}
+.show {
+  display: block;
+}
+.outlined {
+  outline: solid 2px #34495e;
+}
+
+/* PRE modal window */
+#pre {
+  position: absolute;
+  top: 0;
+  left: 0;
+	height: 55vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#themes {
+  margin: auto;
+  padding: 25px 20px;
+  width: 250px;
+  background: whitesmoke;
+  color: #990000;
+  font-weight: bold;
+  letter-spacing: .05em;
+  border-radius: 2px;
+	border: solid #000000 2px;
+}
+
+#themes p {
+  margin: 10px auto;
+  padding: 5px 40px;
+  border: solid #990000 1px;
+  border-radius: 2px;
+  background: whitesmoke;
+  color: #990000;
+  cursor: pointer;
+  font-weight: normal;
+}
+#themes p:hover {
+  background-image: linear-gradient(to top left, #990000, #000000);
+  background-size: 250%;
+  color: whitesmoke;
+}
+
+/* POST modal window */
+#post {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+
+#post > div {
+  width: 300px;
+  padding: 20px 0 40px;
+  background: whitesmoke;
+  color: #990000;
+  border-radius: 2px;
+}
+
+#post p:first-child, #post #final {
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+#post #again {
+  color: #990000;
+  text-decoration: none;
+  margin: auto;
+  padding: 10px 20px;
+  width: 160px;
+  border: solid #990000 1px;
+  border-radius: 2px;
+}
+#post #again:hover {
+  background: #27ae60;
+  background-image: linear-gradient(to top left, #990000, #000000);
+  background-size: 250%;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+
+/* *********************** SECTION 3 *********************** */
+/* *********************** FOOTER *********************** */
+
+footer {
+	width: 100%;
+	background-color: rgba(0, 0, 0, .2);
+}
+
+footer img {
+	width: 100%;
+	max-width: 150px;
+	padding: 0 5px;
+}
+
+footer figure {
+	width: 40%;
+}
+
+footer div {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.vertical {
+	display: block;
+	height: 60px;
+	border: 0;
+	border-right: 2px solid #ffffff;
+	margin: 40px 10px;
+	padding: 0;
+}
+
+.team-logo {
+	width: 40%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.starwars-logo {
+	width: 40%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+/* *********************** FOOTER *********************** */
+/* *********************** MIN WIDTH 700PX *********************** */
+
+@media (min-width: 700px) {
+	nav {
+		padding-top: 25px;
+		padding-right: 4%;
+	}
+
+	nav ul li {
+		padding: 0 5px;
+	}
+
+	.deathstar-images {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.deathstar-images figure {
+		width: 49%;
+	}
+
+	.jedi-images {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.jedi-images figure {
+		width: 49%;
+	}
+}
+
+/* *********************** MIN WIDTH 700PX *********************** */
+/* *********************** MIN WIDTH 800PX *********************** */
+
+@media (min-width: 800px) {
+	.coruscant-section p {
+		font-size: 1.6rem;
+	}
+
+	.jedi-section p {
+		font-size: 1.6rem;
+	}
+}
+
+/* *********************** MIN WIDTH 800PX *********************** */
+/* *********************** MIN WIDTH 1450PX *********************** */
+
+@media (min-width: 1450px) {
+	.coruscant-section p {
+		padding: 0;
+	}
+
+	.jedi-section p {
+		padding: 0;
+	}
+}
+
+/* *********************** MIN WIDTH 1450PX *********************** */
